@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff6e40">
+    <TextView
+        android:text="PARABÉNS!!!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/text_parabens"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff00" />
+    <TextView
+        android:text="Número sorteado: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_final_sorteado"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textColor="#ff000000" />
+    <TextView
+        android:text="Número de tentativas: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_final_tentativas"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textColor="#ff000000" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:background="#ffff6e40">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmd_terminar"
+            android:text="Terminar"
+            android:outlineSpotShadowColor="#ffc5c229"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            app:backgroundTint="@android:color/background_light" />
+    </RelativeLayout>
+
+</LinearLayout>

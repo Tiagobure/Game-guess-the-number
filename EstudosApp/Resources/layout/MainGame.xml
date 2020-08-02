@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffff6e40">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textTitulo"
+        android:textColor="#ffffff00"
+        android:paddingBottom="30dp"
+        android:paddingTop="20dp"
+        android:text="ADIVINHA O NUMERO MAGICO!" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tentativas"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Tentativas 0"
+        android:textColor="#ff000000" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:text="Adivinha o numero sorteado pelo seu smartphone:"
+        android:editable="false"
+        android:textColor="#ff000000" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_valor"
+        android:digits="0123456789" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="63.0dp"
+        android:id="@+id/cmd_adivinhar"
+        android:layout_gravity="center"
+        android:text="Adivinhar"
+        app:backgroundTint="@android:color/background_light" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="63.0dp"
+        android:id="@+id/cmd_reiniciar"
+        android:layout_gravity="center"
+        android:text="Reiniciar"
+        app:backgroundTint="@android:color/background_light" />
+
+</LinearLayout>
